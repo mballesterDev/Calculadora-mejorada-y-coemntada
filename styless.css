@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #7071E8;
+    font-family: 'Fraunces', serif;
+}
+
+.posicionamiento {
+    width: 330px;
+    height: 560px;
+    margin: 100px auto;
+    background-color: #C683D7;
+    padding: 1px;
+    box-shadow: 15px 10px 15px 5px #00000033;
+    border-radius: 32px;
+}
+
+.pantalla {
+    width: 260px;
+    height: 100px;
+    margin: 25px auto;
+    background-color: #363636;
+    border-radius: 20px;
+    box-shadow: 0px 0px 0px 10px #00000033;
+    color: white;
+    font-size: 34px;
+    text-align: end;
+    padding: 20px;
+}
+
+.c {
+    cursor: pointer;
+    margin: 5px;
+    padding: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: none;
+    font-size: 25px;
+    background-color: #c16dd6;
+    box-shadow: 5px 5px 10px -3px #00000040, -5px -5px 15px 3px #00ffc11f;
+    color: white;
+}
+
+.botones .fLargo,
+.botones .f1,
+.botones .f2,
+.botones .f3,
+.botones .f4 {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.l {
+    cursor: pointer;
+    margin: 5px;
+    padding: 0;
+    border-radius: 35%;
+    width: 120px;
+    height: 55px;
+    border: none;
+    font-size: 25px;
+    background-color: #c16dd6;
+    box-shadow: 5px 5px 10px -3px #00000040, -5px -5px 15px 3px #00ffc11f;
+    color: white;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+@media screen and (max-width: 410px) {
+
+    .posicionamiento {
+        width: 50%;
+        height: 65%;
+    }
+
+    .pantalla {
+        width: 130px;
+        height: 65px;
+    }
+
+    .l {
+        width: 60px;
+        height: 22.5px;
+    }
+
+    .c {
+        width: 30px;
+        height: 30px;
+    }
+
+}
